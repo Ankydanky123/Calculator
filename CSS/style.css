@@ -1,0 +1,47 @@
+.outerbox{
+width: 100%;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.calcbox{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    width: 372px;
+    background-color: rgb(88, 88, 88);
+    border: solid black 5px;
+}
+.input{
+    margin-top: 24px;
+}
+.operations{
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 8px;
+    font-size: 40px;
+}
+img{
+    width: 28px;
+}
+.showresult{
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: sans-serif;
+    align-items: baseline;
+}
+.result-txt{
+    font-weight: 900;
+}
+h1{
+    font-size: 75px;
+    font-family: "Algerian";
+    font-weight: 300;
+}

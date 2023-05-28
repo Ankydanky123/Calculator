@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="outerbox">
+        <h1>Calculator</h1>
+    <div class="calcbox">
+    <form>
+        <div class="input">
+            <input id="input1" type="number" placeholder="Enter value 1">
+        </div>
+        <br>
+        <div class="input">
+            <input id="input2" type="number"  placeholder="Enter value 2">
+        </div>
+    </form>
+    <br>
+    <br>
+    <br>
+    <div class="buttonbox">
+       <button id="addition" class="operations" onclick=add() >+</button>
+        <button id="subtraction" class="operations" onclick="subtraction()">-</button>
+        <button id="multiplication" class="operations" onclick="multiplication()">x</button>
+        <button id="division" class="operations" onclick="division()">
+        <img src="./Images/download-removebg-preview.png" alt="Image Not Available">
+        </button>
+    </div>
+    <div id="showresult" class="showresult">
+
+    </div>
+    </div>
+</div>
+<script src="./JS/script.js"></script>
+
+</body>
+</html>
